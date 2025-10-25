@@ -1,0 +1,5 @@
+# Copy to terraform.tfvars and adjust values
+aws_region     = "us-east-1"
+key_name       = "cctb-assignment2-key"
+allowed_cidrs  = ["0.0.0.0/0"]
+# ami_id       = ""  # leave empty to use latest Amazon Linux 2023 via SSM
