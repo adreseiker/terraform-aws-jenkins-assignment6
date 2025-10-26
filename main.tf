@@ -1,10 +1,3 @@
-#################
-# main.tf (CLEAN)
-# - No duplicate data sources
-# - No default VPC lookups
-# - Provider uses region from variable
-#################
-
 terraform {
   required_version = ">= 1.2.0"
   required_providers {
@@ -20,4 +13,3 @@ provider "aws" {
   region = var.aws_region
 }
 
-# (Intentionally no data sources here; AMI is resolved in instances.tf)

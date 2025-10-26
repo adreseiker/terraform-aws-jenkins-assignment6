@@ -1,7 +1,3 @@
-#####################
-# outputs.tf (FIXED)#
-#####################
-
 output "jenkins_public_ip" {
   description = "Public IP of JenkinsController"
   value       = aws_instance.JenkinsController.public_ip

@@ -1,5 +1,3 @@
-# Fixed Terraform Files for Assignment 6
-
 These files ensure ALL resources (SGs, ALB, TG, EC2) use *your custom VPC* (`aws_vpc.main`) and *your custom public subnets* (`aws_subnet.main_a`, `aws_subnet.main_b`).
 
 Replace these in your project and run:

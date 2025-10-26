@@ -1,5 +1,5 @@
 #########################
-# keys.tf (EXISTING KEY)
+# keys.tf 
 # Use an already created EC2 Key Pair.
 # Nothing is created here to avoid InvalidKeyPair.Duplicate.
 #########################

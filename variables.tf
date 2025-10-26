@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region (e.g., us-east-1 or ca-central-1)"
+  description = "AWS region"
   type        = string
   default     = "us-east-1"
 }
@@ -17,7 +17,7 @@ variable "allowed_cidrs" {
 }
 
 variable "ami_id" {
-  description = "Optional: fixed Amazon Linux 2023 AMI. If empty, latest AL2023 via SSM"
+  description = "Optional:Amazon Linux 2023 AMI. If empty, latest AL2023 via SSM"
   type        = string
   default     = ""
 }

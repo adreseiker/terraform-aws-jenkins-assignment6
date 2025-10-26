@@ -1,9 +1,8 @@
-############################
-# load_balancer.tf (FIXED) #
+# load_balancer.tf 
 # - ALB in custom subnets
 # - TG in custom VPC
 # - Attach Prod1/Prod2
-############################
+
 
 # Application Load Balancer in our public subnets
 resource "aws_lb" "alb" {

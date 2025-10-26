@@ -1,9 +1,6 @@
-##########################
-# instances.tf (FIXED)   #
 # - All EC2 in our VPC & subnets
 # - Uses SSM Parameter for latest AL2023 AMI
-# - Subnet placement: main_a for Jenkins/Testing/Staging, main_b for Prod1/Prod2 (can change)
-##########################
+# - Subnet placement: main_a for Jenkins/Testing/Staging, main_b for Prod1/Prod2 
 
 # Latest Amazon Linux 2023 AMI via SSM
 data "aws_ssm_parameter" "al2023" {

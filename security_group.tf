@@ -1,7 +1,5 @@
-##############################
-# security_group.tf (FIXED)  #
 # - All SGs now reference the custom VPC: aws_vpc.main.id
-##############################
+
 
 # Security Group for ALB (allow HTTP from the internet)
 resource "aws_security_group" "alb_sg" {
